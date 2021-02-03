@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding-top: 900px;
+	text-align:center;
+}
+
+.profile {
+    width: 180;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 9;
+}
+
+.parallex-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+h1{
+	color: firebrick;
+	font-family: cursive;
+	font-weight:bold;
+}
+#name,
+h2 {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: yellowgreen;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#hello,#iv,#vi,#vo {
+    border-bottom: 5px solid black;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3;
+}
+html{
+	scroll-behavior: smooth;
+	
+}
+a{
+	text-decoration:none;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+	
+    font-family: cursive;
+    top: 0px;
+	
+    margin-top:0px; 
+    cursor: pointer;
+	
+    z-index: 10;
+	background: white;
+	
+	width: 100%;
+}
+
+.link {
+    color: #7703fc;
+    
+    padding-left: 30px;
+    padding-right: 25.5px;
+    
+    font-family: 'Potta One', cursive;
+    font-size: 20px;
+	
+	display: inline;
+
+
+}
+
+.link:hover {
+    text-decoration: underline;
+    font-size: 25px;
+	
+    color: red;
+}
+
+.article:hover {
+	color:magenta;
+	font-size:23.5px;}
+
+.contact1 h3 {
+display: inline;	
+}
+.contact1 a{
+	color: white;
+	text-shadow: none;
+}
+#contact iframe{
+width: 100%;	
+}
+#contact{
+	background: purple;
+	
+}
+
